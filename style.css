@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Zen Dots', cursive;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+    background-image:url('./Images/bg.jpg');
+    background-color: grey;
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 15%;
+    color: white;
+}
+
+nav h3 {
+    font-size: 24px;
+    font-family: 'Zen Dots', cursive;
+    font-weight: 100;
+}
+
+nav a {
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+#background h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 6rem;
+    letter-spacing: 30px;
+    font-weight: 600;
+    font-family: 'bebas';
+}
+
+
+#content {
+    width: 100%;
+    height: 90%;
+    padding-top: 1px;
+    background-color: black;
+}
+
+#elems {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.block {
+    position: relative;
+    overflow: hidden;
+    width: 48%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.block h5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Zen Dots', cursive;
+    font-size: 15px;
+    letter-spacing: 4px;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    width: 100%;
+    height: 35%;
+    background-color: rgb(0, 0, 0);
+
+}
+
+footer p {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    font-weight: 200;
+    line-height: 26px;
+    font-size: 20px;
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#img1 {
+    background-image: url('./Images/1.jpg');
+}
+
+#img2 {
+    background-image: url('./Images/2.jpg');
+}
+
+#img3 {
+    background-image: url('./Images/3.jpg');
+}
+
+#img4 {
+    background-image: url('./Images/4.jpg');
+}
